@@ -1,6 +1,6 @@
 import Login_po from "../../support/PageObjects/OrangeHRM/Login1";
-import Logout_po from "../../support/PageObjects/Logout1";
-import Link_po from "../../support/PageObjects/Link1";
+import Logout_po from "../../support/Logout1";
+import Link_po from "../../support/Link1";
 
 
 
@@ -14,6 +14,7 @@ describe('', () => {
       //For logging in
         login_po.EnterURL();
         login_po.Login();
+        
 
       //For links
 

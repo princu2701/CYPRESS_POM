@@ -1,4 +1,4 @@
-class Login_po{
+class Login_pr{
 
     EnterURL(){
 
@@ -6,7 +6,7 @@ class Login_po{
     }
 
 
-    Login(){
+    Logn(){
 
        
         cy.get('[name="username"]').type('Admin')
@@ -20,5 +20,42 @@ class Login_po{
     }
 
 }    
-export default Login_po;
+export default Login_pr;
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
